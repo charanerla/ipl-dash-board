@@ -1,0 +1,72 @@
+/* Write your CSS here */
+.latest-match-container {
+  width: 100%;
+  font-family: 'Bree Serif';
+  margin-bottom: 20px;
+}
+.latest-match-heading {
+  font-size: 20px;
+  color: #ffffff;
+}
+.latest-match {
+  background-color: #0f172a;
+  border: 10px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 16px;
+}
+.opponent-team-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  border-bottom: 4px solid #475569;
+}
+.opp-team-date-venue-status-unordered-list {
+  color: #ffffff;
+  width: 65%;
+}
+.opponent-team {
+  font-size: 25px;
+  margin-top: 0px;
+}
+.date {
+  color: #ffffff;
+  font-size: 25px;
+}
+.opponent-team-logo {
+  width: 25%;
+}
+.match-summery-unordered-list {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  padding-left: 16px;
+}
+.list-item {
+  margin-bottom: 13px;
+}
+@media all and (min-width: 768px) {
+  .latest-match {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .opponent-team-container {
+    width: 60%;
+    border: none;
+    padding: 20px;
+  }
+  .opponent-team-logo {
+    width: 30%;
+  }
+  .match-summery-unordered-list {
+    padding-right: 20px;
+    padding-left: 0px;
+    text-align: right;
+  }
+  .list-item {
+    font-size: 20px;
+  }
+}
